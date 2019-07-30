@@ -7,12 +7,24 @@ For this assignment, you will submit a high-level outline of your project. This 
 ## Submission Instructions
 
 ### Overview
-Include overview here
+  I want to create a Help Desk Support Ticketing system. The ticketing system will serve as an organization tool for
+Help Desk Agents to create/manage their tickets opened by end users. Each ticket will be be associated with an ID # in
+which requesters can refer to when asking for status updates. Help Desk Agents will have a to create a log in while I would
+like to have a separate admin log in with different priveldges for supervisors. EX: A supervisor would be able to add/remove
+a category from the categories tab while an agent would not have that option.
 ### Features
-Include Features here
+User Log in- Users will create a log in and have a dashboard displaying all of their tickets.
+Admin Log in- Will be able to the list of agents and view their tickets. They will be able to edit certain fields like adding or removing categories.
+User's will be able to create/edit tickets. Tickets will remain in the system when resolved to use as a knowledge base
+Search- I want the agents to be able to search tickets by the following fields [ ID#, Agent, Requester, Subject, Site/Location]
 ### Technologies
-Include Technologies here
+Java
+Gradle
+Spring boot [JPA, Security, Thymeleaf,]
+MySQL[MAMP]
 ### What I'll Have to Learn
-Include what you will need to learn here
+Spring Security
+Java Script
+
 ### Project Tracker
-Link to your Trello board here
+https://trello.com/b/KRjax85B
